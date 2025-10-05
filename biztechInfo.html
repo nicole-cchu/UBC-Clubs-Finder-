@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Biztech Info — Upcoming Events</title>
+<meta name="theme-color" content="#3f3f41" />
+<style>
+  :root{
+    --bg:#3f3f41;        /* dark background */
+    --text:#f5f5f7;      /* light text */
+    --muted:#c9c9cf;
+    --card:#ffffff;      /* white event cards */
+    --ink:#111111;       /* dark text on cards */
+    --accent:#4f7cff;
+    --border:rgba(255,255,255,.15);
+    --darkpill:#3f3f41;  /* requested dark gray for tag pills */
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif}
+  a{color:#e3e3ff}
+  .wrap{max-width:1100px;margin:0 auto;padding:24px}
+
+  /* Fixed back button (top-left) */
+  .back-btn{
+    position:fixed; top:12px; left:12px; z-index:1000;
+    display:inline-flex; align-items:center; gap:8px;
+    padding:8px 12px; border-radius:10px;
+    border:1px solid var(--border);
+    background:rgba(255,255,255,.08);
+    color:var(--text); text-decoration:none;
+    backdrop-filter:saturate(140%) blur(4px);
+  }
+  .back-btn:hover{ background:rgba(255,255,255,.14) }
+
+  header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:10px}
+  h1{margin:0;font-size:1.9rem;letter-spacing:.2px}
+  .sub{margin:4px 0 18px;color:var(--muted)}
+
+  /* Membership button */
+  .cta{
+    display:inline-flex;align-items:center;gap:10px;
+    border:1px solid var(--border);background:var(--card);color:var(--ink);
+    padding:12px 16px;border-radius:12px;text-decoration:none;font-weight:600;
+    box-shadow:0 1px 4px rgba(0,0,0,.2);
+  }
+  .cta:hover{transform:translateY(-1px)}
+  .cta:active{transform:translateY(0)}
+  .cta svg{width:18px;height:18px}
+
+  /* Events grid */
+  .events{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+  .card{
+    background:var(--card);color:var(--ink);border-radius:16px;padding:16px;
+    box-shadow:0 2px 8px rgba(0,0,0,.12);border:1px solid rgba(0,0,0,.06);position:relative;
+  }
+  .card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:8px}
+  .card h2{margin:0;font-size:1.2rem}
+  .pill{display:inline-block;padding:2px 8px;border-radius:999px;background:#f0f0f0;font-size:.8rem;color:#333;margin-top:6px}
+
+  /* Make Hackathon & Workshop pills dark gray with white text */
+  .pill.hackathon,
+  .pill.workshop{
+    background:var(--darkpill);
+    color:#ffffff;
+    border:1px solid rgba(0,0,0,.25);
+  }
+
+  .meta{font-size:.92rem;color:#333;margin:6px 0}
+  .desc{font-size:.95rem;color:#333;margin:8px 0 0}
+
+  /* Bell icon button */
+  .icon-btn{
+    border:0;background:transparent;padding:6px;border-radius:10px;cursor:pointer;
+    line-height:0;transition:transform .08s ease;
+  }
+  .icon-btn:hover{transform:translateY(-1px)}
+  .icon-btn:active{transform:translateY(0)}
+  .bell{width:22px;height:22px;display:block;stroke:#4b5563;fill:none}
+  .icon-btn[aria-pressed="true"] .bell{stroke:var(--accent);fill:rgba(79,124,255,.15)}
+  .icon-label{position:absolute;left:-9999px}
+
+  /* Footer */
+  footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
+  .contacts{display:flex;gap:12px;flex-wrap:wrap}
+  .contact{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:10px 12px;border-radius:10px;border:1px solid var(--border);text-decoration:none;background:rgba(255,255,255,.06)
+  }
+  .contact:hover{background:rgba(255,255,255,.12)}
+  .contact svg{width:18px;height:18px}
+  .hint{color:var(--muted);font-size:.9rem;margin:0}
+</style>
+</head>
+<body>
+  <!-- Back button (change href to your clubs page path) -->
+  <a class="back-btn" href="indexAllClubs.html" aria-label="Back to all clubs">← Back to all clubs</a>
+
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Biztech Info</h1>
+        <p class="sub">Stay on top of Biztech events, hackathons, and announcements.</p>
+      </div>
+      <a class="cta" href="https://app.ubcbiztech.com/register" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4 19v-1.5A3.5 3.5 0 0 1 7.5 14h9A3.5 3.5 0 0 1 20 17.5V19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+        Membership
+      </a>
+    </header>
+
+    <p class="hint">Tap the 🔔 bell to download a calendar reminder.</p>
+
+    <!-- EVENTS -->
+    <section class="events" aria-label="Upcoming events">
+      <!-- HelloHacks with real time -->
+      <article class="card"
+        data-title="HelloHacks"
+        data-location="Henry Angus Building, UBC"
+        data-start-local="2025-10-05T13:00">
+        <div class="card-head">
+          <div>
+            <h2>HelloHacks</h2>
+            <div class="meta">Sun, Oct 5 • 1:00–3:00 PM • Henry Angus Building</div>
+            <span class="pill hackathon">Hackathon</span>
+          </div>
+          <button class="icon-btn" aria-pressed="false" aria-label="Add HelloHacks to calendar">
+            <svg class="bell" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3a5 5 0 0 0-5 5v2.1c0 .7-.3 1.4-.9 1.8l-1.2.9a1 1 0 0 0 .6 1.8h14.9a1 1 0 0 0 .6-1.8l-1.2-.9c-.6-.4-.9-1.1-.9-1.8V8a5 5 0 0 0-5-5Z" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9.5 19a2.5 2.5 0 0 0 5 0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="icon-label">Add to calendar</span>
+          </button>
+        </div>
+        <p class="desc">Kickstart your semester with a friendly weekend hackathon. New to coding? We’ve got intro workshops, mentors, and prizes.</p>
+      </article>
+
+      <!-- UX Open -->
+      <article class="card"
+        data-title="UX Open"
+        data-location="Henry Angus, UBC"
+        data-description="Sketch, prototype, and test a concept in 90 minutes.">
+        <div class="card-head">
+          <div>
+            <h2>UX Open</h2>
+            <div class="meta">Thu • Henry Angus • Hands-on UX/UI mini-sprint</div>
+            <span class="pill workshop">Workshop</span>
+          </div>
+          <button class="icon-btn" aria-pressed="false" aria-label="Remind me for UX Open">
+            <svg class="bell" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3a5 5 0 0 0-5 5v2.1c0 .7-.3 1.4-.9 1.8l-1.2.9a1 1 0 0 0 .6 1.8h14.9a1 1 0 0 0 .6-1.8l-1.2-.9c-.6-.4-.9-1.1-.9-1.8V8a5 5 0 0 0-5-5Z" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9.5 19a2.5 2.5 0 0 0 5 0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="icon-label">Remind me</span>
+          </button>
+        </div>
+        <p class="desc">Sketch, prototype, and test a concept in 90 minutes. No prior design experience needed.</p>
+      </article>
+    </section>
+
+    <!-- FOOTER: contacts -->
+    <footer>
+      <p class="sub" style="margin:0">Questions? Reach us:</p>
+      <div class="contacts">
+        <a class="contact" href="https://www.instagram.com/ubcbiztech/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>
+          </svg>
+          <span>@ubcbiztech</span>
+        </a>
+        <a class="contact" href="mailto:ubcbiztech@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 7h16v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7Z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>ubcbiztech@gmail.com</span>
+        </a>
+      </div>
+    </footer>
+  </div>
+
+<script>
+  // Create an .ics file for calendar apps (Google, Apple, Outlook, etc.)
+  function downloadICS({ title, location, startLocal, durationMin = 120, description = "" }) {
+    const tz = "America/Vancouver";
+    const pad = n => String(n).padStart(2,"0");
+
+    const start = new Date(startLocal.replace(" ", "T")); // expects 'YYYY-MM-DDTHH:MM'
+    const end   = new Date(start.getTime() + durationMin * 60000);
+
+    const fmtLocal = d => (
+      d.getFullYear()
+      + pad(d.getMonth()+1)
+      + pad(d.getDate())
+      + "T"
+      + pad(d.getHours())
+      + pad(d.getMinutes())
+      + "00"
+    );
+
+    const dtStart = fmtLocal(start);
+    const dtEnd   = fmtLocal(end);
+
+    const now = new Date();
+    const dtStamp = now.toISOString().replace(/[-:]/g,"").replace(/\.\d{3}Z$/,"Z");
+    const uid = "biztech-" + Math.random().toString(36).slice(2) + "@" + location.replace(/\s+/g,"-").toLowerCase();
+
+    const esc = s => (s || "").replace(/([,;])/g, "\\$1").replace(/\n/g, "\\n");
+
+    const ics =
+`BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BizTech//Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:${uid}
+DTSTAMP:${dtStamp}
+SUMMARY:${esc(title)}
+DESCRIPTION:${esc(description)}
+LOCATION:${esc(location)}
+DTSTART;TZID=${tz}:${dtStart}
+DTEND;TZID=${tz}:${dtEnd}
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR`;
+
+    const blob = new Blob([ics], { type: "text/calendar;charset=utf-8" });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement("a");
+    a.href = url;
+    a.download = `${title.replace(/\s+/g,"_")}-${dtStart}.ics`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 2000);
+  }
+
+  // Hook up bell buttons
+  (function(){
+    document.querySelectorAll(".card .icon-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        const card = btn.closest(".card");
+        const title = card.dataset.title || card.querySelector("h2")?.textContent?.trim() || "Event";
+        const location = card.dataset.location || "";
+        const startLocal = card.dataset.startLocal; // e.g., 2025-10-05T13:00
+        const durationMin = Number(card.dataset.durationMin || "120");
+        const description = card.dataset.description || "";
+
+        // Toggle pressed visual
+        const pressed = btn.getAttribute("aria-pressed") === "true";
+        btn.setAttribute("aria-pressed", String(!pressed));
+
+        if (startLocal) {
+          downloadICS({ title, location, startLocal, durationMin, description });
+        } else {
+          alert("No date/time set for this event yet.");
+        }
+      });
+    });
+  })();
+</script>
+</body>
+</html>
+
+

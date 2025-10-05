@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>UBC Clubs Explorer (Unofficial)</title>
+<style>
+  :root {
+    --bg:#3f3f41;     /* dark gray background */
+    --text:#ffffff;   /* white text elsewhere */
+    --muted:#e6e6e6;  /* secondary text on dark bg */
+    --card:#ffffff;   /* WHITE cards */
+    --border:#6b6b6d; /* subtle border on dark UI */
+    --field:#2b2b2d;  /* input/select/button background */
+    --ink:#111;       /* text on white cards */
+  }
+  * { box-sizing: border-box; }
+  body{
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    margin:0;background:var(--bg);color:var(--text)
+  }
+  a{ color:var(--text); }
+  .wrap{max-width:1100px;margin:0 auto;padding:24px}
+  h1{margin:0 0 8px;font-size:1.8rem}
+  .sub{color:var(--muted);margin:0 0 16px}
+
+  .controls{display:grid;gap:12px;grid-template-columns: 1fr 1fr}
+  .controls input,.controls select{
+    padding:10px;border:1px solid var(--border);border-radius:12px;
+    background:var(--field);color:var(--text)
+  }
+  .toolbar{display:flex;gap:8px;align-items:center;margin-top:10px}
+  .btn{
+    border:1px solid var(--border);background:var(--field);color:var(--text);
+    border-radius:10px;padding:8px 10px;cursor:pointer
+  }
+  .btn:active{transform:translateY(1px)}
+
+  .grid{display:grid;gap:12px;grid-template-columns: repeat(auto-fill, minmax(280px,1fr)); margin-top:16px}
+  .card{
+    display:block;text-decoration:none;
+    background:var(--card);border-radius:16px;padding:14px;
+    box-shadow:0 1px 4px rgba(0,0,0,.25);border:1px solid var(--border);
+    color:var(--ink);
+  }
+  .card h3{margin:0 0 6px;font-size:1.05rem}
+  .muted{color:var(--muted);font-size:.9rem}
+  .card .muted{color:#555} /* darker muted text on white card */
+  .pill{
+    display:inline-block;margin-top:6px;padding:2px 8px;border-radius:999px;
+    background:#5a5a5c;color:#fff;font-size:.8rem
+  }
+
+  #status{margin-top:8px;color:var(--muted);min-height:1em}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>UBC Clubs Finder</h1>
+  <p class="sub">
+    Browse and filter UBC clubs.
+    <a href="https://amsclubs.ca/all-clubs/" target="_blank" rel="noopener">See official directory</a>.
+  </p>
+
+  <div class="controls" role="region" aria-label="Filters">
+    <input id="q" placeholder="Search clubs by name or description…" autocomplete="off" />
+    <select id="category" aria-label="Category">
+      <option value="">All categories</option>
+      <option value="Athletic">Athletic</option>
+      <option value="Service">Service</option>
+      <option value="Cultural">Cultural</option>
+      <option value="Recreational">Recreational</option>
+      <option value="Business">Business</option>
+      <option value="Technology">Technology</option>
+      <option value="Sciences">Sciences</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <div class="toolbar">
+    <button id="reset" class="btn" type="button">Reset filters</button>
+    <span class="muted" id="count" aria-live="polite"></span>
+  </div>
+
+  <div id="status" aria-live="polite">Loading clubs…</div>
+  <div class="grid" id="list"></div>
+</div>
+
+<script>
+(() => {
+  const qEl      = document.getElementById("q");
+  const catEl    = document.getElementById("category");
+  const listEl   = document.getElementById("list");
+  const countEl  = document.getElementById("count");
+  const resetBtn = document.getElementById("reset");
+  const statusEl = document.getElementById("status");
+
+  const escapeHTML = (s) => (s ?? "").toString().replace(/[&<>"']/g, m => (
+    { "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[m]
+  ));
+
+  function renderRows(rows){
+    listEl.innerHTML = "";
+    if (!rows.length) {
+      listEl.innerHTML = "<div class='muted'>No clubs match your filters.</div>";
+    } else {
+      rows.forEach(c => {
+        const a = document.createElement("a");
+        a.className = "card";
+        a.href = c.url || "#";
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.innerHTML = `
+          <h3>${escapeHTML(c.name)}</h3>
+          <div class="muted">${escapeHTML(c.description || "No description available.")}</div>
+          <div class="pill">${escapeHTML(c.category || "Other")}</div>
+        `;
+        listEl.appendChild(a);
+      });
+    }
+    countEl.textContent = `${rows.length} clubs shown`;
+  }
+
+  function applyFilters(all){
+    const q = (qEl.value || "").trim().toLowerCase();
+    const cat = (catEl.value || "").trim();
+    let rows = all.slice();
+    if (cat) rows = rows.filter(c => (c.category || "").toLowerCase() === cat.toLowerCase());
+    if (q) rows = rows.filter(c => ((c.name||"") + " " + (c.description||"")).toLowerCase().includes(q));
+    rows.sort((a,b) => (a.name || "").localeCompare(b.name || ""));
+    return rows;
+  }
+
+  function wireFilters(refresh){
+    qEl.addEventListener("input", refresh);
+    catEl.addEventListener("change", refresh);
+    resetBtn.addEventListener("click", () => { qEl.value=""; catEl.value=""; refresh(); qEl.focus(); });
+    qEl.addEventListener("keydown", (e) => { if (e.key === "Enter") qEl.blur(); });
+  }
+
+  async function loadData(){
+    try {
+      const r = await fetch('./clubs.json', { cache: 'no-store' });
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      const data = await r.json();
+      const clubs = Array.isArray(data.clubs) ? data.clubs : [];
+      statusEl.textContent = "";
+      return clubs;
+    } catch (e) {
+      console.error(e);
+      statusEl.innerHTML = "Could not load <code>clubs.json</code>. Make sure it sits next to this HTML and you’re using Live Server.";
+      return [];
+    }
+  }
+
+  async function init(){
+    const clubs = await loadData();
+    const refresh = () => renderRows(applyFilters(clubs));
+    wireFilters(refresh);
+    refresh();
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+  else init();
+})();
+</script>
+</body>
+</html>
