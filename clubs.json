@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2025-10-05T05:22:42Z",
+  "generated_at": "2025-10-06T17:18:42Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -28,13 +28,13 @@
     },
     {
       "name": "AMS Minecraft Club",
-      "category": "Technology",
+      "category": "Athletic",
       "description": "The AMS Minecraft Club (also known as UBCMC) is the perfect place for those who may be playing, have played, or want to play Minecraft with a vibrant and exciting community!\r\n \r\nWe host monthly events such as Building Competitions, PvP, Survival, Game Nights, you name it. We also run 24/7 Vanilla a",
       "url": "https://amsclubs.ca/minecraft-club/"
     },
     {
       "name": "AMS Pre-Dental Society at UBC",
-      "category": "Sciences",
+      "category": "Athletic",
       "description": "The UBC Pre-Dental Club provides guidance to students pursuing the dental field and provides a pre-dental network that students can rely on. We host weekly meetings on Wednesdays at 6:00 pm in IKB 261 and each meeting focuses on a specific stage of applying for dental schools and becoming a competit",
       "url": "https://amsclubs.ca/predental-society/"
     },
@@ -316,13 +316,13 @@
     },
     {
       "name": "AMS Squash Club at UBC",
-      "category": "Athletic",
+      "category": "Service",
       "description": "Welcome to the UBC Squash Club! Founded this year in 2024, this is your gateway to a vibrant community of squash enthusiasts at the University of British Columbia. Whether you're a seasoned player or just picking up a racquet for the first time, our club offers a welcoming environment for all skill",
       "url": "https://amsclubs.ca/squash-club/"
     },
     {
       "name": "AMS Women's Health Club",
-      "category": "Sciences",
+      "category": "Service",
       "description": "Our mission is to provide an empowering and intrepid community for female-identifying students at UBC. We wish to create a fun, safe, and respectful environment that encourages, and nurtures health-aligned goals. The entry into a healthy and active lifestyle is challenged by numerous factors not lim",
       "url": "https://amsclubs.ca/womens-health/"
     },
@@ -694,7 +694,7 @@
     },
     {
       "name": "AMS UBC Quantum Club @UBC",
-      "category": "Sciences",
+      "category": "Business",
       "description": "Quantum technology, especially quantum information and quantum computing, will shape our future. Though still in its infancy, quantum computing is well-positioned for high-impact applications in drug and material discovery, finance, cryptography, and the like. It is more important now than ever for",
       "url": "https://amsclubs.ca/quantum-club/"
     },
@@ -726,7 +726,7 @@
       "name": "UBC BizTech",
       "category": "Business",
       "description": "At BizTech, we bridge the gap between business, technology and you. \r\nAs UBC's largest technology club with over 600 members and 40 executives, we create immersive experiences in various fields regardless of your chosen area of study. Whether you are attending a conference, hackathon, or mentorship",
-      "url": "biztechInfo.html"
+      "url": "https://amsclubs.ca/ubc-biztech/"
     },
     {
       "name": "UBC Finance Association",
@@ -772,13 +772,13 @@
     },
     {
       "name": "AMS Bike Club at UBC",
-      "category": "Athletic",
+      "category": "Technology",
       "description": "We're so glad you're here \r\nUBC Mountain Bike Club is located on the unceded traditional territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and səlilwətaɬ (Tsleil-Waututh) Nations. We acknowledge their ancestors who nourished the land for centuries before it",
       "url": "https://amsclubs.ca/bike-club/"
     },
     {
       "name": "AMS Bike Co-op",
-      "category": "Athletic",
+      "category": "Technology",
       "description": "our mission\r\nWe provide students and the wider community with an accessible environment where they can learn to fix bicycles, share resources, and work together. We engage in cycling education, outreach and advocacy to promote biking as a safe and sustainable means of transportation.\r\nSustainability",
       "url": "https://amsclubs.ca/bike-coop/"
     },
@@ -802,7 +802,7 @@
     },
     {
       "name": "AMS Cancer Association of UBC",
-      "category": "Sciences",
+      "category": "Technology",
       "description": "Who We Are - The University of British Columbia Cancer Association was created to support those affected by cancer in the UBC community and beyond. We are a student led philanthropic club that raises funds to support survivors and raises awareness about cancer related issues and resources. \r\n \r\nWh",
       "url": "https://amsclubs.ca/cancer-association/"
     },
@@ -826,7 +826,7 @@
     },
     {
       "name": "AMS Dance Horizons",
-      "category": "Athletic",
+      "category": "Technology",
       "description": "Dance Horizons is a student-run, nonprofit organization at UBC that aims to share dance with people of all skill levels and styles. We provide various opportunities to develop technical, performance, and leadership skills in a casual and fun environment. Our classes range from hip-hop to contemporar",
       "url": "https://amsclubs.ca/dance-horizons/"
     },
@@ -958,25 +958,25 @@
     },
     {
       "name": "AMS Muaythai Club at UBC",
-      "category": "Athletic",
+      "category": "Technology",
       "description": "We are based on the belief that Muaythai is not just a self-defence combat sport – it is a journey towards building character and confidence alongside your fellow students. No matter what your reason for training is, we hope you form close and supportive bonds as you practice the art of Muaythai.",
       "url": "https://amsclubs.ca/muaythai-club/"
     },
     {
       "name": "AMS Music Production Club at UBC",
-      "category": "Music",
+      "category": "Technology",
       "description": "Our mission is to provide a supportive and creative environment where music enthusiasts can explore, develop, and refine their musical talents. We aim to serve as an entry point for students interested in music production by offering a range of comprehensive educational classes, workshops, and resou",
       "url": "https://amsclubs.ca/music-production-club/"
     },
     {
       "name": "AMS Music for Mental Health at UBC",
-      "category": "Music",
+      "category": "Technology",
       "description": "About Us\r\n\r\n\r\nMusic for Mental Health (MMH) is a Canadian youth-led non-profit dedicated to raising awareness for mental health through music creation.\r\n \r\nWe encourage discussion surrounding mental health by promoting artistic self-expression in creating and collaborating on original music.",
       "url": "https://amsclubs.ca/music-for-mental-health/"
     },
     {
       "name": "AMS PRODUCT MANAGEMENT CLUB @ UBC",
-      "category": "Business",
+      "category": "Technology",
       "description": "Start your product journey here.\r\nUBC first and only Product Management club!",
       "url": "https://amsclubs.ca/product-management-club/"
     },
@@ -1378,7 +1378,7 @@
     },
     {
       "name": "UBC Cooking Club",
-      "category": "Food",
+      "category": "Technology",
       "description": "UBC Cooking Club aims to foster a community of cooking enthusiasts through the promotion of food preparation skills and the enjoyment of delicious food. Members will be able to develop their cooking skill in a fun and safe environment under the guidance of our friendly cooking coordinators.",
       "url": "https://amsclubs.ca/cooking-club/"
     },
@@ -1426,7 +1426,7 @@
     },
     {
       "name": "UBC Jazz Club at AMS",
-      "category": "Music",
+      "category": "Technology",
       "description": "The UBC Jazz Club aims to create and foster and space for UBC students to meet new people and explore their passion for music through performance, collaboration, and appreciation.\r\nWe host weekly jam sessions, perform in the Nest, and run a Big Band. In addition to that, we also have monthly catered",
       "url": "https://amsclubs.ca/jazz-club/"
     },
@@ -1630,7 +1630,7 @@
     },
     {
       "name": "Speech and Linguistics Student Association",
-      "category": "Languages",
+      "category": "Sciences",
       "description": "SALSA is UBC’s official undergraduate society affiliated with the Department of Linguistics. We represent students from various fields of study including Linguistics, First Nations Languages and Linguistics, and Speech Sciences as well as specializations in Cognitive Systems, Psychology, French, S",
       "url": "https://amsclubs.ca/speech-and-linguistics-student-association/"
     },
@@ -1732,7 +1732,7 @@
     },
     {
       "name": "AMS BC Young Liberals at UBC",
-      "category": "Politics",
+      "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/bc-young-liberals/"
     },
@@ -1762,7 +1762,7 @@
     },
     {
       "name": "AMS Buddhism Association @ UBC",
-      "category": "Cultural",
+      "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/buddhism-association/"
     },
@@ -1774,7 +1774,7 @@
     },
     {
       "name": "AMS Central Asian Student Union (CASU) at UBC",
-      "category": "Cultural",
+      "category": "Other",
       "description": "At the Central Asian Student Union, you are welcomed whether you are Central Asian or not. Central Asia is a diverse region with a rich history and includes the following countries: Mongolia, Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan, and Turkmenistan.",
       "url": "https://amsclubs.ca/central-asian-student-union/"
     },
@@ -1930,7 +1930,7 @@
     },
     {
       "name": "AMS Muslim Womens Chapter @ UBC",
-      "category": "Cultural",
+      "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/muslim-womens-chapter/"
     },
@@ -1948,7 +1948,7 @@
     },
     {
       "name": "AMS Pilates Club",
-      "category": "Athletic",
+      "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/pilates-club/"
     },
@@ -1972,7 +1972,7 @@
     },
     {
       "name": "AMS Socialist Fightback Students at UBC",
-      "category": "Politics",
+      "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/socialist-fightback-students/"
     },
@@ -1984,7 +1984,7 @@
     },
     {
       "name": "AMS StartUps",
-      "category": "Business",
+      "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/startups/"
     },
@@ -2038,7 +2038,7 @@
     },
     {
       "name": "AMS UBC Orthodox Christian Fellowship",
-      "category": "Cultural",
+      "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/ubc-orthodix-christian-fellowship/"
     },
