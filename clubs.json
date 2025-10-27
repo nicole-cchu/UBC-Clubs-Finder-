@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2025-10-20T17:22:47Z",
+  "generated_at": "2025-10-27T17:19:01Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -729,12 +729,6 @@
       "url": "https://amsclubs.ca/ubc-biztech/"
     },
     {
-      "name": "UBC Equestrian Club",
-      "category": "Business",
-      "description": "Jessica Qian : VP Marketing / Social Media",
-      "url": "https://amsclubs.ca/equestrian/"
-    },
-    {
       "name": "UBC Finance Association",
       "category": "Business",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
@@ -899,7 +893,7 @@
     {
       "name": "AMS Humanities in Healthcare at UBC",
       "category": "Technology",
-      "description": "Our club aims to promote the practice of narrative medicine, the idea of using literature and storytelling to give patients the opportunity to discuss their personal experiences so health professionals can better treat them. Instead of equating patients to their diagnosis, narrative medicine is a mo",
+      "description": "Our club aims to foster a future of healthcare professionals who think critically about the psychosocial determinants of health. This year, we are especially focused on diversity and inclusion. We aim to collaborate with and amplify the voices of marginalized patients, students, and healthcare profe",
       "url": "https://amsclubs.ca/humanities-in-healthcare/"
     },
     {
@@ -1539,16 +1533,16 @@
       "url": "https://amsclubs.ca/weightlifting-and-powerlifting-club/"
     },
     {
-      "name": "UBC YNOTFORTOTS",
-      "category": "Technology",
-      "description": "Are you passionate about making a difference in the lives of children? Join UBC YNOTFORTOTS and help us provide kids in the Lower Mainland with the resources they need to play, learn, and grow! As a member, you’ll have the opportunity to lead donation drives, organize fun events, and work ha",
-      "url": "https://amsclubs.ca/ynotfortots/"
-    },
-    {
       "name": "UBC Yoga Club",
       "category": "Technology",
       "description": "The UBC Yoga Club's mission is to provide affordable yoga to students and faculty at the University of British Columbia. On the busy campus of UBC, practicing yoga provides a way to calm the mind and body from the daily stresses of student life. Yoga is an incredible practice for supporting holistic",
       "url": "https://amsclubs.ca/yoga-club/"
+    },
+    {
+      "name": "Vision Health Volunteers",
+      "category": "Technology",
+      "description": "About Our Foundation\r\nWe are a community service organization here at UBC, dedicated to providing opportunities in the many ways we can support the visually impaired community. Our club hosts a variety of events throughout the year, including fundraisers, awareness campaigns, educational sessions, a",
+      "url": "https://amsclubs.ca/vision-health-volunteers/"
     },
     {
       "name": "Wargamers of UBC",
@@ -2473,6 +2467,12 @@
       "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/economics-student-association/"
+    },
+    {
+      "name": "UBC Equestrian Club",
+      "category": "Other",
+      "description": "Welcome all horse lovers and enthusiasts!\r\nAt UBC Equestrian Club, you'll have a chance to ride horses at a leisure pace. Whether you're a returning rider or an absolute beginner, there is a place for everyone. No high commitment needed :)\r\nFollow us on our social media platforms for club updates an",
+      "url": "https://amsclubs.ca/equestrian/"
     },
     {
       "name": "UBC German Student Association",
