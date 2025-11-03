@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2025-10-27T17:19:01Z",
+  "generated_at": "2025-11-03T17:18:36Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -475,6 +475,12 @@
       "category": "Service",
       "description": "Welcome to the University of British Columbia's premier destination for all things theatre -- UBC Players Club! As one of the oldest and the best clubs at UBC, the Players Club has a rich history of connecting students, faculty, and the wider community through the art of performance. \r\nOur mission",
       "url": "https://amsclubs.ca/players-club/"
+    },
+    {
+      "name": "UBC SISU",
+      "category": "Service",
+      "description": "We are SISU UBC!\r\nA wellness & recreation club at the University of British Columbia in Vancouver, BC  \r\nOur mission is to empower young women by fostering the values ofpurpose 𖣠﹒grit ✧﹒resilience ★ through adventures, fitness, and wellness based community initiatives ♡\r\n&nbsp",
+      "url": "https://amsclubs.ca/sisu/"
     },
     {
       "name": "UBC Trading Group",
@@ -1025,7 +1031,7 @@
     {
       "name": "AMS Strings Club",
       "category": "Technology",
-      "description": "UBC Strings club is a student-led music community that aims to provide an inclusive environment for all",
+      "description": "UBC Strings club is a student-led music community that aims to provide an inclusive environment for string players of all levels.",
       "url": "https://amsclubs.ca/amsstrings/"
     },
     {
@@ -1531,6 +1537,12 @@
       "category": "Technology",
       "description": "We are the UBC Weightlifting and Powerlifting Club! We are the hub for lifting sports at UBC. We host weekly powerlifting and weightlifting training sessions with 1-on-1 coaching. Each session focuses on a specific lift and we alternate between beginner and advanced training sessions so there’s so",
       "url": "https://amsclubs.ca/weightlifting-and-powerlifting-club/"
+    },
+    {
+      "name": "UBC YNOTFORTOTS",
+      "category": "Technology",
+      "description": "Are you passionate about making a difference in the lives of children? Join UBC YNOTFORTOTS and help us provide kids in the Lower Mainland with the resources they need to play, learn, and grow! As a member, you’ll have the opportunity to lead donation drives, organize fun events, and work ha",
+      "url": "https://amsclubs.ca/ynotfortots/"
     },
     {
       "name": "UBC Yoga Club",
@@ -2569,12 +2581,6 @@
       "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/real-estate-club/"
-    },
-    {
-      "name": "UBC SISU",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/sisu/"
     },
     {
       "name": "UBC Scandinavian and Nordic Student Association",
