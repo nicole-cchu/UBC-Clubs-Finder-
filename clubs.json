@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2025-11-03T17:18:36Z",
+  "generated_at": "2025-11-10T17:19:27Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -2647,6 +2647,12 @@
       "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/ux-hub/"
+    },
+    {
+      "name": "UBC Women's Lacrosse",
+      "category": "Other",
+      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
+      "url": "https://amsclubs.ca/womens-lacrosse/"
     },
     {
       "name": "UBC Wrestling Club",
