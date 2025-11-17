@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2025-11-10T17:19:27Z",
+  "generated_at": "2025-11-17T17:19:59Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -235,6 +235,12 @@
       "category": "Athletic",
       "description": "UBC Water Polo is a dynamic and vibrant student-led organization. Open to both seasoned athletes and newcomers to the sport, we offer a supportive environment for developing water polo skills while emphasizing teamwork and fun. With regular practices, intra-club scrimmages, participation in local co",
       "url": "https://amsclubs.ca/water-polo-club/"
+    },
+    {
+      "name": "UBC Women's Lacrosse",
+      "category": "Athletic",
+      "description": "Welcome to the UBC Field Lacrosse Club! Whether you're picking up a stick for the first time or have years of experience on the field, our club is the place to connect, compete, and share in the excitement of one of Canada's national sports.",
+      "url": "https://amsclubs.ca/womens-lacrosse/"
     },
     {
       "name": "Varsity Outdoor Club",
@@ -2647,12 +2653,6 @@
       "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/ux-hub/"
-    },
-    {
-      "name": "UBC Women's Lacrosse",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/womens-lacrosse/"
     },
     {
       "name": "UBC Wrestling Club",
