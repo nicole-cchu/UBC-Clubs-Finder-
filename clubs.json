@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2025-11-24T17:20:36Z",
+  "generated_at": "2025-12-01T17:22:41Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -295,12 +295,6 @@
       "category": "Service",
       "description": "The UBC Greek Student Association (GREEKSA) is the newly-created Greek student club, and the only cultural club representing Greeks at UBC. Our mission at GREEKSA is to foster a vibrant and inclusive community for Greek students while extending an open invitation to everyone interested in exploring",
       "url": "https://amsclubs.ca/greek-student-association/"
-    },
-    {
-      "name": "AMS InterVarsity Christian Fellowship at UBC",
-      "category": "Service",
-      "description": "Welcome to InterVarsity Campus Ministry at University of British Columbia! We're a community on campus that exists to encourage\r\nstudents with the power and love of Jesus. We do that through weekly Bible studies, social opportunities and retreats, all of which are open\r\nto anyone that wants",
-      "url": "https://amsclubs.ca/intervarsity-christian-fellowship/"
     },
     {
       "name": "AMS Malayali Students Association",
@@ -913,6 +907,12 @@
       "category": "Technology",
       "description": "﷽\r\n \r\n\"O believers, give of what We have provided for you.\" [2:254]\r\nAt Islamic Relief UBC, we turn faith into action. As a student-led chapter of Islamic Relief Canada, we empower the UBC and local communities through volunteering, fundraising, outreach, and advocacy, striving to rai",
       "url": "https://amsclubs.ca/irc/"
+    },
+    {
+      "name": "AMS InterVarsity Christian Fellowship at UBC",
+      "category": "Technology",
+      "description": "Welcome to InterVarsity Campus Ministry at University of British Columbia! We're a community on campus that inspires and equips students to encounter Jesus, cultivate Christ-centred faith, and radiate the transforming love of God in Canada and the world. We do that through weekly Bible studi",
+      "url": "https://amsclubs.ca/intervarsity-christian-fellowship/"
     },
     {
       "name": "AMS Jain Students Association",
