@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2026-02-16T17:39:28Z",
+  "generated_at": "2026-03-02T17:45:25Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -609,12 +609,6 @@
       "url": "https://amsclubs.ca/calisthenics-and-body-improvement/"
     },
     {
-      "name": "AMS Ice Cream Club at UBC",
-      "category": "Recreational",
-      "description": "Welcome to the Ice Cream Club, where every scoop brings us closer together! At our university, we believe that life is sweeter when shared with friends. Join us for a delightful mix of fun and relaxation as we indulge in our favorite frozen treats while enjoying social events, game nights, and ice c",
-      "url": "https://amsclubs.ca/ice-cream-club/"
-    },
-    {
       "name": "Cantonese Christian Fellowship",
       "category": "Recreational",
       "description": "Hello! We are a Christian Fellowship club for Cantonese speaking students:)\r\nWe have weekly gatherings on Monday 5-7pm in UBC (location to be updated on our instagram), which we would play games, sing hymns, bible study, share, and pray together.\r\nWe welcome you to join and hope to see you!",
@@ -885,12 +879,6 @@
       "url": "https://amsclubs.ca/girls-in-steam/"
     },
     {
-      "name": "AMS Her Fitness at UBC",
-      "category": "Technology",
-      "description": "The goal of our club is to build a welcoming community that embraces and supports self-identifying women throughout their journey in the gym and engaging with the fitness world regardless of experience level, pronouns or background. Our main focus will be creating opportunities for members t",
-      "url": "https://amsclubs.ca/her-fitness/"
-    },
-    {
       "name": "AMS Hui O Hawai'i at UBC",
       "category": "Technology",
       "description": "The purpose of the AMS Hui ‘O Hawai‘i at UBC is to foster a vibrant community that celebrates and promotes the rich culture, traditions, and heritage of the Hawaiian Islands. Through our activities and events, we aim to provide an immersive and educational experience for members of all backgroun",
@@ -901,12 +889,6 @@
       "category": "Technology",
       "description": "Our club aims to foster a future of healthcare professionals who think critically about the psychosocial determinants of health. This year, we are especially focused on diversity and inclusion. We aim to collaborate with and amplify the voices of marginalized patients, students, and healthcare profe",
       "url": "https://amsclubs.ca/humanities-in-healthcare/"
-    },
-    {
-      "name": "AMS IRC @ UBC",
-      "category": "Technology",
-      "description": "﷽\r\n \r\n\"O believers, give of what We have provided for you.\" [2:254]\r\nAt Islamic Relief UBC, we turn faith into action. As a student-led chapter of Islamic Relief Canada, we empower the UBC and local communities through volunteering, fundraising, outreach, and advocacy, striving to rai",
-      "url": "https://amsclubs.ca/irc/"
     },
     {
       "name": "AMS InterVarsity Christian Fellowship at UBC",
@@ -1625,7 +1607,7 @@
     {
       "name": "Medical Laboratory Club",
       "category": "Sciences",
-      "description": "Welcome to the UBC Medical Laboratory Club! \r\nThis club is supported by UBC's Alma Mater Society (AMS) and wishes to introduce the vast field of Medical Laboratory Sciences to any students who are interested. \r\nThe Medical Laboratory Club provides information and opportunities to students interest",
+      "description": "Welcome to the UBC Medical Laboratory Club! \r\nThis club is supported by UBC's Alma Mater Society (AMS) and wishes to introduce the vast field of Medical Laboratory Sciences to any students who are interested. \r\nWe welcome students intrested in science, healthcare, and research—whether your explo",
       "url": "https://amsclubs.ca/medical-laboratory-club/"
     },
     {
@@ -1785,12 +1767,6 @@
       "url": "https://amsclubs.ca/ceili-club/"
     },
     {
-      "name": "AMS Central Asian Student Union (CASU) at UBC",
-      "category": "Other",
-      "description": "At the Central Asian Student Union, you are welcomed whether you are Central Asian or not. Central Asia is a diverse region with a rich history and includes the following countries: Mongolia, Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan, and Turkmenistan.",
-      "url": "https://amsclubs.ca/central-asian-student-union/"
-    },
-    {
       "name": "AMS Columbia Student Association",
       "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
@@ -1897,12 +1873,6 @@
       "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/henna-club/"
-    },
-    {
-      "name": "AMS Hospitality and Leisure Club @UBC",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/hospitality-and-leisure-club/"
     },
     {
       "name": "AMS Kendama Club @ UBC",
@@ -2515,6 +2485,12 @@
       "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/law-and-society-chats/"
+    },
+    {
+      "name": "UBC Life Drawing",
+      "category": "Other",
+      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
+      "url": "https://amsclubs.ca/ubclifedrawing/"
     },
     {
       "name": "UBC Magic Club @ AMS",
