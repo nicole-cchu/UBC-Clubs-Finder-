@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2026-08-17T17:24:50Z",
+  "generated_at": "2026-08-24T17:29:32Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -301,6 +301,12 @@
       "category": "Service",
       "description": "The UBC Greek Student Association (GREEKSA) is the newly-created Greek student club, and the only cultural club representing Greeks at UBC. Our mission at GREEKSA is to foster a vibrant and inclusive community for Greek students while extending an open invitation to everyone interested in exploring",
       "url": "https://amsclubs.ca/greek-student-association/"
+    },
+    {
+      "name": "AMS Love Your Neighbour Club @ UBC",
+      "category": "Service",
+      "description": "AMS Love Your Neighbour Club @ UBC is a student-led volunteering group with the purpose of serving the community both on campus and beyond. Our mission is to provide students with meaningful opportunities to develop practical skills, give back, and make connections with fellow students through servi",
+      "url": "https://amsclubs.ca/love-your-neighbour-club/"
     },
     {
       "name": "AMS Malayali Students Association",
@@ -671,7 +677,7 @@
     {
       "name": "180 Degrees Consulting at UBC",
       "category": "Business",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
+      "description": "180 Degrees Consulting UBC is the University of British Columbia’s official branch of the world’s largest university-based consultancy. As a chapter of this global network, 180DC UBC connects top undergraduate talent at the University of British Columbia with mission-driven organizations across",
       "url": "https://amsclubs.ca/180-degrees-consulting/"
     },
     {
@@ -755,7 +761,7 @@
     {
       "name": "Young Women in Business UBC",
       "category": "Business",
-      "description": "YWiB UBC strives to inspire and connect ambitious young women to achieve their fullest personal and professional potential.\r\n⭐️ ‘23 & ‘24 CUS Top Club Award🌸 Blossom Mentorship Program🍃 Philanthropy Program🎟 800+ Event Attendees",
+      "description": "YWiB UBC strives to inspire and connect ambitious young women to achieve their fullest personal and professional potential.\r\n⭐️ '25 & '26 CUS Top Mentorship Award and ‘23 & ‘24 CUS Top Club Award🌸 Blossom Mentorship Program🍃 Philanthropy Program🎟 800+ Event Attendees",
       "url": "https://amsclubs.ca/young-women-in-business/"
     },
     {
@@ -937,12 +943,6 @@
       "category": "Technology",
       "description": "The AMS Kurdish Club at UBC offers a welcoming space for Kurdish students to connect, build meaningful relationships, and foster a sense of community on campus, while celebrating Kurdish culture and traditions. Additionally, the club is dedicated to raising awareness about Kurdish history, the chall",
       "url": "https://amsclubs.ca/kurdish-club/"
-    },
-    {
-      "name": "AMS Love Your Neighbour Club @ UBC",
-      "category": "Technology",
-      "description": "AMS Love Your Neighbour Club @ UBC is a student-led volunteering group with the purpose of serving the community. We provide volunteering and skills development opportunities for UBC students. Students who desire to make a difference and sharpen their skills will benefit from joining the club. We ai",
-      "url": "https://amsclubs.ca/love-your-neighbour-club/"
     },
     {
       "name": "AMS Luxury & Retail Association @ UBC",
@@ -1273,12 +1273,6 @@
       "category": "Technology",
       "description": "PRINT Arts and Crafts Club (standing for PeRsonalized INteresT) aims to provide UBC students with a safe and inclusive environment for students to de-stress and explore their creativity with various practices of art. We are currently celebrating our 14th year at UBC!\r\nWe are committed to hosting an",
       "url": "https://amsclubs.ca/print-arts-and-crafts-club/"
-    },
-    {
-      "name": "Pharmacology and CAPS Student Association",
-      "category": "Technology",
-      "description": "PCSA is dedicated to supporting current and prospective Pharmacology and CAPS students while fostering a welcoming community around the two programs. The club is devoted to providing guidance, specialization information night, study resources/question packs, and study sessions to aid student",
-      "url": "https://amsclubs.ca/pharmacology-and-caps/"
     },
     {
       "name": "Planetary Health Club",
