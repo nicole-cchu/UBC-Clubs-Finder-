@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2026-08-31T21:48:14Z",
+  "generated_at": "2026-09-07T20:24:06Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -413,7 +413,7 @@
     {
       "name": "Psychology Students' Association",
       "category": "Service",
-      "description": "Here at PSA, our mission is to enhance the personal, professional, and academic success of UBC psychology students by working with the Department of Psychology. Along with the department, the PSA provides a variety of events and services over the academic year to foster community and enhance the fu",
+      "description": "Here at the PSA, our mission is to enhance the personal, professional, and academic success of UBC psychology students by working with the Department of Psychology. Along with the department, the PSA provides a variety of events and services over the academic year to foster community and enhance the",
       "url": "https://amsclubs.ca/psychology-students-association/"
     },
     {
@@ -453,12 +453,6 @@
       "url": "https://amsclubs.ca/salsa-rueda/"
     },
     {
-      "name": "UBC AMS Black Student Union",
-      "category": "Service",
-      "description": "Welcome to your BSU!\r\nThe UBC Black Student Union (BSU) is a vibrant and inclusive community dedicated to supporting, empowering, and celebrating Black students at the University of British Columbia. Our mission is to foster a space where Black students can thrive academically, socially, and cultura",
-      "url": "https://amsclubs.ca/black-student-union/"
-    },
-    {
       "name": "UBC AMS English Students' Association",
       "category": "Service",
       "description": "The UBC English Students’ Association strives to provide English Majors, Minors, and Honours students with the opportunity to engage with each other and form a meaningful sense of community within and beyond the UBC English department.\r\n \r\nWe hold a mix of academic and social events throughout th",
@@ -469,6 +463,12 @@
       "category": "Service",
       "description": "UBC PhotoSoc strives to foster the art of photography within the campus community. Through our events, workshops, and services, we provide a place for photographers and photography enthusiasts to grow, connect, and inspire.",
       "url": "https://amsclubs.ca/photographic-society/"
+    },
+    {
+      "name": "UBC Foundation of International Medical Relief for Children",
+      "category": "Service",
+      "description": "Foundational International Medical Relief of Children (FIMRC) is a nonprofit organization that is dedicated to providing access to healthcare for impoverished families around the world.\r\nFIMRC offers onsite volunteering opportunities to support operations abroad for clinical exposure and hands-on ex",
+      "url": "https://amsclubs.ca/foundation-of-international-medical-reflief-for-children/"
     },
     {
       "name": "UBC Kababayan: Filipino Student's Association",
@@ -585,6 +585,12 @@
       "url": "https://amsclubs.ca/chinese-students-and-scholars-association/"
     },
     {
+      "name": "UBC Club HK",
+      "category": "Cultural",
+      "description": "Immerse yourself in Hong Kong culture here with us at UBC. \r\nWe hope to connect people through the interest in learning the culture of Hong Kong.",
+      "url": "https://amsclubs.ca/club-hk/"
+    },
+    {
       "name": "UBC Persian Club",
       "category": "Cultural",
       "description": "Discover the vibrant world of UBC Persian Club",
@@ -619,6 +625,12 @@
       "category": "Recreational",
       "description": "Welcome to the Ice Cream Club, where every scoop brings us closer together! At our university, we believe that life is sweeter when shared with friends. Join us for a delightful mix of fun and relaxation as we indulge in our favorite frozen treats while enjoying social events, game nights, and ice c",
       "url": "https://amsclubs.ca/ice-cream-club/"
+    },
+    {
+      "name": "Blank Vinyl Project",
+      "category": "Recreational",
+      "description": "We are UBC's live music initiative, creating a network of connections and resources for music-lovers and music-makers, bridging the gap between UBC and the greater Vancouver local music scene! We emphasize supporting live music by hosting a range of events, from free music shows at Koerner's",
+      "url": "https://amsclubs.ca/blank-vinyl-project/"
     },
     {
       "name": "Cantonese Christian Fellowship",
@@ -1125,12 +1137,6 @@
       "url": "https://amsclubs.ca/biochemistry-student-association/"
     },
     {
-      "name": "Blank Vinyl Project",
-      "category": "Technology",
-      "description": "We are UBC's live music initiative aiming to create a network of connections and resources for music-lovers and music-makers, bridging the gap between UBC and the greater Vancouver local music scene! We emphasize supporting live music by hosting a range of events, from free music shows at Ko",
-      "url": "https://amsclubs.ca/blank-vinyl-project/"
-    },
-    {
       "name": "Born For More",
       "category": "Technology",
       "description": "Hello! We are Born For More, a Christian club since 1954.\r\nToday, our goal is to help the UBC community develop friendships and relationships with Jesus. We would love to chat and answer any questions you have!\r\nWhoever you are, Jesus is waiting for you.",
@@ -1321,6 +1327,12 @@
       "category": "Technology",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/aiesec/"
+    },
+    {
+      "name": "UBC AMS Black Student Union",
+      "category": "Technology",
+      "description": "Welcome to your BSU!\r\nThe UBC Black Student Union (BSU) is a student-run initiative that advocates for and represents Black Students at the University of British Columbia. Out mission is to ensure that all Black Students at UBC feel supported and receives any aide that may be necessary in their deve",
+      "url": "https://amsclubs.ca/black-student-union/"
     },
     {
       "name": "UBC AMS Neuroscience Association",
@@ -2333,7 +2345,7 @@
     {
       "name": "Philosophy Students Association",
       "category": "Other",
-      "description": "We are the UBC Philosophy Students' Association! The purpose of our club is to provide a place for the philosophically inclined to discourse on life's biggest questions and the thinkers who attempt to answer them",
+      "description": "We are the UBC Philosophy Students' Association! The purpose of our club is to provide a place for the philosophically inclined to discourse on life's biggest questions and the thinkers who attempt to answer them.",
       "url": "https://amsclubs.ca/philosophy-students-association/"
     },
     {
@@ -2457,12 +2469,6 @@
       "url": "https://amsclubs.ca/canadian-liver-foundation/"
     },
     {
-      "name": "UBC Club HK",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/club-hk/"
-    },
-    {
       "name": "UBC Conservatives",
       "category": "Other",
       "description": "The UBC Conservatives is the official student club of the Conservative Party of Canada at the University of British Columbia (UBC), Vancouver. Our club is made up of a diverse group of students who share a passion for conservative principles and values. We are committed to promoting and advancing co",
@@ -2491,12 +2497,6 @@
       "category": "Other",
       "description": "Welcome all horse lovers and enthusiasts!\r\nAt UBC Equestrian Club, you'll have a chance to ride horses at a leisure pace. Whether you're a returning rider or an absolute beginner, there is a place for everyone. No high commitment needed :)\r\nFollow us on our social media platforms for club updates an",
       "url": "https://amsclubs.ca/equestrian/"
-    },
-    {
-      "name": "UBC Foundation of International Medical Relief for Children",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/foundation-of-international-medical-reflief-for-children/"
     },
     {
       "name": "UBC German Student Association",
