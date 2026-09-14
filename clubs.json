@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2026-09-07T20:24:06Z",
+  "generated_at": "2026-09-14T20:47:58Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -67,12 +67,6 @@
       "category": "Athletic",
       "description": "Unlimited Dance Club (UDC) is a street dance club at UBC! We offer weekly drop-ins for all things street style, like popping, locking, hip hop, and even breakdancing! We also organize icebreakers, club performances, and more! Make sure to check out are instagram for all the latest updates!",
       "url": "https://amsclubs.ca/unlimited-dance-club/"
-    },
-    {
-      "name": "AMS Volleyball Club at UBC",
-      "category": "Athletic",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/volleyball-club/"
     },
     {
       "name": "AMS Women in Sports @ UBC",
@@ -245,7 +239,7 @@
     {
       "name": "UBC Women's Lacrosse",
       "category": "Athletic",
-      "description": "Welcome to the UBC Field Lacrosse Club! Whether you're picking up a stick for the first time or have years of experience on the field, our club is the place to connect, compete, and share in the excitement of one of Canada's national sports.",
+      "description": "Welcome to the UBC Women's Lacrosse Club! Whether you're picking up a stick for the first time or have years of experience on the field, our club is the place to connect, compete, and share in the excitement of one of Canada's national sports.",
       "url": "https://amsclubs.ca/womens-lacrosse/"
     },
     {
@@ -647,7 +641,7 @@
     {
       "name": "UBC Chess Club",
       "category": "Recreational",
-      "description": "Are you a Chess Fan? New to the game? A Grand Master? We are the place! \r\nFor everyone on campus, or off, interested in chess, com check us out!",
+      "description": "Are you a Chess Fan? New to the game? A Grand Master? We are the place! \r\nFor everyone on campus, or off, interested in chess, come check us out!",
       "url": "https://amsclubs.ca/chess-club/"
     },
     {
@@ -1093,6 +1087,12 @@
       "category": "Technology",
       "description": "Welcoming space at The University of British Columbia where students share Ukrainian identity, culture, and history 🇺🇦\r\n#TheWarIsNotOver",
       "url": "https://amsclubs.ca/usu/"
+    },
+    {
+      "name": "AMS Volleyball Club at UBC",
+      "category": "Technology",
+      "description": "We're a student-run volleyball club at UBC, and we've got room for you whether you're chasing a competitive roster spot or you just want to hit a ball around on a Tuesday night.\r\nOur competitive program has four teams, two women's and two men's, that train and compete through the year. Our recreatio",
+      "url": "https://amsclubs.ca/volleyball-club/"
     },
     {
       "name": "AMS Women Empowerment Club @ UBC",
@@ -1585,12 +1585,6 @@
       "category": "Technology",
       "description": "About Our Foundation\r\nWe are a community service organization here at UBC, dedicated to providing opportunities in the many ways we can support the visually impaired community. Our club hosts a variety of events throughout the year, including fundraisers, awareness campaigns, educational sessions, a",
       "url": "https://amsclubs.ca/vision-health-volunteers/"
-    },
-    {
-      "name": "Wargamers of UBC",
-      "category": "Technology",
-      "description": "Welcome to the UBC Wargamers!!\r\nYour one stop for all things tabletop, we specialize in Board games, RPGs, Magic, Pokemon, Riftbound and Warhammer, for which we host weekly, free, drop-in game nights available to everybody (including non-members)!!! Our goal is to be a friendly, welcoming space for",
-      "url": "https://amsclubs.ca/wargamers-of-ubc/"
     },
     {
       "name": "Women in Data Science (WiDS@UBC)",
