@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2026-09-14T20:47:58Z",
+  "generated_at": "2026-09-21T20:49:04Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -503,7 +503,7 @@
     {
       "name": "Vegans of UBC",
       "category": "Service",
-      "description": "A community of people who follow or want to learn more about veganism either as a diet, a lifestyle or a philosophy. We hope to support people who are already vegan or wanting to transition through the mean of community, education, or advocacy. Expect lots of social gatherings surrounded by deliciou",
+      "description": "A community of people who follow or want to learn more about veganism either as a diet, a lifestyle or a philosophy. We hope to support people who are already vegan or wanting to transition by providing community, education, and opportunities for advocacy and activism.\r\nExpect lots of social gatheri",
       "url": "https://amsclubs.ca/vegans-of-ubc/"
     },
     {
@@ -535,12 +535,6 @@
       "category": "Cultural",
       "description": "Mingalabar UBC!\r\nMyanmar Student Club is a student organization dedicated to representing the rich cultural heritage of Myanmar (Burma) at UBC. Our club is a hub for students from Myanmar and those interested in our culture to come together, share experiences, and celebrate our traditions. Whether y",
       "url": "https://amsclubs.ca/myanmar-student-club/"
-    },
-    {
-      "name": "African Awareness Initiative",
-      "category": "Cultural",
-      "description": "6133 University Blvd V6T 1Z1 Vancouver, BC",
-      "url": "https://amsclubs.ca/african-awareness-initiative/"
     },
     {
       "name": "Israel on Campus (IOC)",
@@ -669,16 +663,16 @@
       "url": "https://amsclubs.ca/ubc-improv/"
     },
     {
+      "name": "UBC Musical Theatre Troupe",
+      "category": "Recreational",
+      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
+      "url": "https://amsclubs.ca/musical-theatre-troupe/"
+    },
+    {
       "name": "Voice Acting Club",
       "category": "Recreational",
       "description": "The AMS Voice Acting Club is dedicated to exploring and celebrating the unique art of voice acting. Our purpose is to provide a platform for students to learn, grow, and connect through the shared passion for voice performance. Unlike traditional film and television acting, voice acting focuses on t",
       "url": "https://amsclubs.ca/voice-acting/"
-    },
-    {
-      "name": "WordPress",
-      "category": "Recreational",
-      "description": "UBC's only musical theatre troupe!",
-      "url": "https://amsclubs.ca/musical-theatre-troupe/"
     },
     {
       "name": "180 Degrees Consulting at UBC",
@@ -1073,7 +1067,7 @@
     {
       "name": "AMS UBC Taekwondo",
       "category": "Technology",
-      "description": "Welcome to UBC Taekwondo! Whether you're a \"retired\" black belt, actively training for your next belt, have no idea what Taekwondo is, or are just looking for something fun between lectures, this is the club for you! As one of the largest martial arts clubs at UBC, we pride ourselves on building an",
+      "description": "Welcome to UBC Taekwondo!\r\n \r\nWhether you’re a ‘retired’ belt, actively training, a complete beginner, or just looking to make new friends, this club is for you! As one of the largest martial arts club at UBC with tons of dedicated members, we pride ourselves on building an inclusive, fun and",
       "url": "https://amsclubs.ca/ubc-taekwondo/"
     },
     {
@@ -1117,6 +1111,12 @@
       "category": "Technology",
       "description": "AMS unboundED @ UBC is a student-run club that provides Science and Arts workshops to elementary schools and daycares to invoke curiosity and excitement to help reduce the uncertainty when choosing their field of study or career path. Join us and volunteer with helping out the community by aiding th",
       "url": "https://amsclubs.ca/unbounded/"
+    },
+    {
+      "name": "African Awareness Initiative",
+      "category": "Technology",
+      "description": "UBC Africa Awareness Initiative (AAI) is a student-led organization committed to fostering informed dialogue about Africa and her global diaspora. Founded in 2002, AAI was born from the recognized need for more accurate and meaningful representation of Africa within academic spaces at UBC. Its missi",
+      "url": "https://amsclubs.ca/african-awareness-initiative/"
     },
     {
       "name": "Amnesty International UBC",
@@ -1925,7 +1925,7 @@
     {
       "name": "AMS Knitting & Sewing Club at UBC",
       "category": "Other",
-      "description": "Welcome to UBC Knit & Sew! We are a club that strives to build a stress-free, fun environment for all yarn and needle crafters.\r\nWhether you're a seasoned knitter, a beginner crocheter, or someone who just wants to pick up a new hobby, we've got the place for you! Anyone of any skill level is ab",
+      "description": "*The club registration button (the big blue join) is not working right now. Sorry about that...\r\nWelcome to UBC Knit & Sew! We are a club that strives to build a stress-free, fun environment for all yarn and needle crafters.\r\nWhether you're a seasoned knitter, a beginner crocheter, or someone wh",
       "url": "https://amsclubs.ca/knitting-and-sewing/"
     },
     {
@@ -2651,7 +2651,7 @@
     {
       "name": "UBC Third World Eye Care Society",
       "category": "Other",
-      "description": "Onelli : Treasurer & VP Internal",
+      "description": "Alana : Co-Social Media Manager",
       "url": "https://amsclubs.ca/third-world-eye-care-society/"
     },
     {
