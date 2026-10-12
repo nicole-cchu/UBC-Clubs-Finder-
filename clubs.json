@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2026-10-05T23:06:05Z",
+  "generated_at": "2026-10-12T23:28:53Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -477,12 +477,6 @@
       "url": "https://amsclubs.ca/vietnamese-student-association/"
     },
     {
-      "name": "AMS Arab Student Association at UBC",
-      "category": "Cultural",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/arab-student-association/"
-    },
-    {
       "name": "AMS Hindu Yuva",
       "category": "Cultural",
       "description": "UBC Hindu Yuva, where the latter ‘Yuva’ is a double entendre standing for “Youth” in the Indian native language, and “Youth for Unity, Virtue, and Action”(YUVA) in its comfortable acronym form, is what constitutes the core of this club. The mission of the Hindu YUVA as a club is to bring",
@@ -575,7 +569,7 @@
     {
       "name": "UBC Chess Club",
       "category": "Recreational",
-      "description": "Are you a Chess Fan? New to the game? A Grand Master? We are the place! \r\nFor everyone on campus, or off, interested in chess, come check us out!",
+      "description": "Are you a Chess Fan? New to the game? A Grand Master? We are the place! \r\nFor everyone on campus, or off, interested in chess, come check us out!\r\nSorry for the late update: there is no meeting today (October 12th); enjoy your Thanksgiving!",
       "url": "https://amsclubs.ca/chess-club/"
     },
     {
@@ -639,12 +633,6 @@
       "url": "https://amsclubs.ca/innovation-on-board/"
     },
     {
-      "name": "AMS Sports Business Association @ UBC",
-      "category": "Business",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/sports-analytics-club/"
-    },
-    {
       "name": "AMS Taylor Swift Club at UBC",
       "category": "Business",
       "description": "Vamakshi Parikh Marketing/Outreach Coordinator",
@@ -685,6 +673,12 @@
       "category": "Business",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/finance-association/"
+    },
+    {
+      "name": "UBC Sports Business Association",
+      "category": "Business",
+      "description": "The UBC Sports Business Association (UBCSBA) is a student-led organization founded in 2024 aimed to connect UBC students with the dynamic world of sports business. Sparked by a shared passion and a lack of student-facing resources in this space, UBCSBA was created to bridge the gap between the class",
+      "url": "https://amsclubs.ca/sports-business/"
     },
     {
       "name": "University of British Columbia Marketing Association",
@@ -971,7 +965,7 @@
     {
       "name": "AMS Strings Club",
       "category": "Technology",
-      "description": "UBC Strings club is a student-led music community that aims to provide an inclusive environment for string players of all levels.",
+      "description": "UBC Strings Club is a student-led music community that aims to provide an inclusive environment for string players of all levels. All info can be found on our website linked below!",
       "url": "https://amsclubs.ca/amsstrings/"
     },
     {
@@ -1035,12 +1029,6 @@
       "url": "https://amsclubs.ca/unbounded/"
     },
     {
-      "name": "African Awareness Initiative",
-      "category": "Technology",
-      "description": "UBC Africa Awareness Initiative (AAI) is a student-led organization committed to fostering informed dialogue about Africa and her global diaspora. Founded in 2002, AAI was born from the recognized need for more accurate and meaningful representation of Africa within academic spaces at UBC. Its missi",
-      "url": "https://amsclubs.ca/african-awareness-initiative/"
-    },
-    {
       "name": "Amnesty International UBC",
       "category": "Technology",
       "description": "Amnesty International UBC is an AMS club that promotes awareness of human rights around the UBC campus and the Vancouver community.  We focus on letter-writing campaigns and fostering community knowledge and dialogue.\r\nOnce you join the club via CampusBase, you must also fill out this form, and pay",
@@ -1099,6 +1087,12 @@
       "category": "Technology",
       "description": "The Coptic Orthodox Christian Club at UBC is a vibrant and welcoming community rooted in faith, fellowship, and love. We are part of the Coptic Orthodox Church, one of the oldest Christian churches in the world, founded in Egypt in the 1st century by Saint Mark the Evangelist. The word “Coptic”",
       "url": "https://amsclubs.ca/coptic-orthodox-student-association/"
+    },
+    {
+      "name": "Environmental Engineering Student Association",
+      "category": "Technology",
+      "description": "Welcome to the page for the Environmental Engineering Student Association. We're the student representatives for UBC's Environmental Engineering program under the Engineering Undergraduate Society. We aim to support environmental engineering students to engineer a more sustainable world! During the",
+      "url": "https://amsclubs.ca/environmental-engineering-student-association/"
     },
     {
       "name": "Environmental Sciences Students' Association (ESSA)",
@@ -1485,12 +1479,6 @@
       "url": "https://amsclubs.ca/nwplus/"
     },
     {
-      "name": "AMS Actuarial Science Club @ UBC",
-      "category": "Sciences",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/actuarial-science-club/"
-    },
-    {
       "name": "AMS Women's Health Research Club at UBC",
       "category": "Sciences",
       "description": "Kyana Chan : Vice President Operations",
@@ -1587,22 +1575,10 @@
       "url": "https://amsclubs.ca/undergraduate-math-association/"
     },
     {
-      "name": "AMS Age-Link at UBC",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/age-link/"
-    },
-    {
       "name": "AMS Applied Machine Learning & Art @ UBC",
       "category": "Other",
       "description": "6133 University Blvd BC V6T 1Z1 Vancouver, BC",
       "url": "https://amsclubs.ca/applied-machine-learning-and-art/"
-    },
-    {
-      "name": "AMS BC Young Liberals at UBC",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/bc-young-liberals/"
     },
     {
       "name": "AMS Central Asian Student Union (CASU) at UBC",
@@ -1677,28 +1653,10 @@
       "url": "https://amsclubs.ca/wing-chun-club/"
     },
     {
-      "name": "Alma Mater Society",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/alma-mater-society/"
-    },
-    {
       "name": "Ancient Mediterranean and Near Eastern Student Association",
       "category": "Other",
       "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
       "url": "https://amsclubs.ca/ancient-mediterranean-and-near-eastern-student-association/"
-    },
-    {
-      "name": "Arts Co-op Student Association",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/arts-coop-student-association/"
-    },
-    {
-      "name": "Arts Undergraduate Society",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/aus/"
     },
     {
       "name": "Beads and Crafts",
@@ -1763,7 +1721,7 @@
     {
       "name": "Philosophy Students Association",
       "category": "Other",
-      "description": "We are the UBC Philosophy Students' Association! The purpose of our club is to provide a place for the philosophically inclined to discourse on life's biggest questions and the thinkers who attempt to answer them.",
+      "description": "We are the UBC Philosophy Students' Association! The purpose of our club is to provide a place for the philosophically inclined to discourse on life's biggest questions and the thinkers who attempt to answer them.\r\nIf you have any suggestions regarding the structure and handling of the club, please",
       "url": "https://amsclubs.ca/philosophy-students-association/"
     },
     {
@@ -1795,30 +1753,6 @@
       "category": "Other",
       "description": "ABOUT US\r\nUBC A Cappella is located on the traditional, ancestral, and unceded land of the Skwxwú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh (Tsleil-Waututh), and xwməθkwəy̓əm (Musqueam) Nations.\r\nOur story started in 2007: the UBC A Cappella Club was formed, comprising of one",
       "url": "https://amsclubs.ca/a-cappella/"
-    },
-    {
-      "name": "UBC AMS Club Directory",
-      "category": "Other",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum sed nulla tristique placerat. Mauris euismod tellus quis sem venenatis condimentum. Quisque accumsan volutpat dui ac vehicula. Sed dictum tortor a massa facilisis pharetra ut id nunc. Nullam ac purus pellentesque, tristique odio q",
-      "url": "https://amsclubs.ca/readers/"
-    },
-    {
-      "name": "UBC AVIATION CLUB",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/aviation-club/"
-    },
-    {
-      "name": "UBC Africa Awareness Initiative",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/afirca-awareness-initiative/"
-    },
-    {
-      "name": "UBC Blood for Life",
-      "category": "Other",
-      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
-      "url": "https://amsclubs.ca/blood-for-life/"
     },
     {
       "name": "UBC Brewing Club",
