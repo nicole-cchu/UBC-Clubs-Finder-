@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2026-10-12T23:28:53Z",
+  "generated_at": "2026-10-26T21:21:02Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -569,7 +569,7 @@
     {
       "name": "UBC Chess Club",
       "category": "Recreational",
-      "description": "Are you a Chess Fan? New to the game? A Grand Master? We are the place! \r\nFor everyone on campus, or off, interested in chess, come check us out!\r\nSorry for the late update: there is no meeting today (October 12th); enjoy your Thanksgiving!",
+      "description": "Are you a Chess Fan? New to the game? A Grand Master? We are the place! \r\nFor everyone on campus, or off, interested in chess, come check us out!",
       "url": "https://amsclubs.ca/chess-club/"
     },
     {
@@ -665,7 +665,7 @@
     {
       "name": "UBC BizTech",
       "category": "Business",
-      "description": "At BizTech, we bridge the gap between business, technology and you. \r\nAs UBC's largest technology club with over 600 members and 40 executives, we create immersive experiences in various fields regardless of your chosen area of study. Whether you are attending a conference, hackathon, or mentorship",
+      "description": "At BizTech, we bridge the gap between business, technology and you. \r\nAs UBC's largest technology club with over 800 members and 54 executives, we create immersive experiences in various fields regardless of your chosen area of study. Whether you are attending a conference, hackathon, or mentorship",
       "url": "https://amsclubs.ca/ubc-biztech/"
     },
     {
@@ -1077,6 +1077,12 @@
       "url": "https://amsclubs.ca/christian-students/"
     },
     {
+      "name": "Civil Engineering Club",
+      "category": "Technology",
+      "description": "Welcome to The Civil Club - your hub for all things Civil Engineering at the University of British Columbia!\r\nAs a Civil Engineering undergraduate student at UBC, you're automatically part of The Civil Club. From the moment you join the Civil Engineering program, you're a member of our vibrant commu",
+      "url": "https://amsclubs.ca/civil-engineering/"
+    },
+    {
       "name": "Cognitive Systems Society",
       "category": "Technology",
       "description": "We're the Cognitive Systems Society (CSS), the undergraduate student club for the Cognitive Systems (COGS) program! \r\nWe connect, support, and celebrate UBC’s COGS community by offering a diverse range of events and opportunities.",
@@ -1231,6 +1237,12 @@
       "category": "Technology",
       "description": "The UBC Navigators welcomes all students to explore faith in Jesus. Everyone is invited to join our weekly Bible studies, small groups and community events! We provide a safe, fun, and trustworthy environment where we learn about Jesus and everyday discipleship. Our mission is \"To Know Christ, make",
       "url": "https://amsclubs.ca/navigators/"
+    },
+    {
+      "name": "UBC AIESEC",
+      "category": "Technology",
+      "description": "AIESEC is the world’s largest youth-led organization, present in over 100 countries and territories, dedicated to developing the leadership potential of young people. Founded in 1948, AIESEC operates through a global network of national committees and local chapters, connecting youth across cultur",
+      "url": "https://amsclubs.ca/aiesec/"
     },
     {
       "name": "UBC AMS Black Student Union",
