@@ -1,6 +1,6 @@
 {
   "generated_from": "https://amsclubs.ca/all-clubs/",
-  "generated_at": "2026-10-26T21:21:02Z",
+  "generated_at": "2026-11-02T23:51:16Z",
   "clubs": [
     {
       "name": "AMS Barista Club at UBC",
@@ -515,7 +515,7 @@
     {
       "name": "UBC Club HK",
       "category": "Cultural",
-      "description": "Immerse yourself in Hong Kong culture here with us at UBC. \r\nWe hope to connect people through the interest in learning the culture of Hong Kong.",
+      "description": "Immerse yourself in Hong Kong culture here with us at UBC.\r\nWe hope to connect people through the interest in learning the culture of Hong Kong.",
       "url": "https://amsclubs.ca/club-hk/"
     },
     {
@@ -1001,7 +1001,7 @@
     {
       "name": "AMS Volleyball Club at UBC",
       "category": "Technology",
-      "description": "We're a student-run volleyball club at UBC, and we've got room for you whether you're chasing a competitive roster spot or you just want to hit a ball around on a Tuesday night.\r\nOur competitive program has four teams, two women's and two men's, that train and compete through the year. Our recreatio",
+      "description": "We're a student-run volleyball club at UBC, and we've got room for you whether you're chasing a competitive roster spot or you just want to hit a ball around on a Saturday night.\r\nOur competitive program has four teams, two women's and two men's, that train and compete through the year. Our recreati",
       "url": "https://amsclubs.ca/volleyball-club/"
     },
     {
@@ -1429,6 +1429,12 @@
       "category": "Technology",
       "description": "64 - 2357 Main Mall V6T 1Z4 Vancouver, BC",
       "url": "https://amsclubs.ca/students-for-partners-in-health-canada/"
+    },
+    {
+      "name": "UBC Supply Chain and Operations Association",
+      "category": "Technology",
+      "description": "6133 University Blvd. UBC Campus Vancouver BC, V6T 1Z1",
+      "url": "https://amsclubs.ca/supply-chain-and-operations-association/"
     },
     {
       "name": "UBC Tamil Student Association",
